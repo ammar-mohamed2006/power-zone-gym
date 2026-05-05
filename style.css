@@ -53,7 +53,7 @@ transition: 0.5s;
 }
 .hero {
     height: 100vh;
-    background: url(../images/ambitious-studio-rick-barrett-03b61PY89hs-unsplash.jpg) no-repeat center center / cover ;
+    background: url(ambitious-studio-rick-barrett-03b61PY89hs-unsplash.jpg) no-repeat center center / cover ;
     display :flex;
     justify-content: center;
     align-items: center;
