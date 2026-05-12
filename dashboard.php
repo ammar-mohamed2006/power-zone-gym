@@ -24,19 +24,27 @@ $user = mysqli_fetch_array($query);
 </head>
 <body class="dashboard-body">
 
-    <header class="navbar">
-        <div class="logo">
-            <img src="images/Bodybuilder_Fitness_Club_Black_Logo_1_-removebg-preview.png" alt="logo">
-            <h1>POWER ZONE</h1>
-        </div>
-        <nav class="nav-links">
-            <a href="dashboard.php" class="active"><i class="fas fa-th-large"></i> Dashboard</a>
-            <a href="index.html"><i class="fas fa-home"></i> Home</a>
-        </nav>
-        <div class="nav-buttons">
-            <a href="logout.php" class="login">Logout</a>
-        </div>
-    </header>
+    <!-- النافبار -->
+<header class="navbar">
+    <div class="logo">
+        <img src="images/Bodybuilder_Fitness_Club_Black_Logo_1_-removebg-preview.png" alt="power gym logo">
+        <h1>POWER ZONE</h1>
+    </div>
+
+    <nav class="nav-links">
+        <a href="index.html"><i class="fas fa-home"></i> Home</a>
+        <a href="about.html"><i class="fas fa-info-circle"></i> About</a>
+        <a href="programs.html"><i class="fas fa-dumbbell"></i> Programs</a>
+        <a href="plans.html"><i class="fas fa-clipboard-list"></i> plans</a>
+        <a href="plans.html"><i class="fas fa-envelope"></i> contact</a>
+    </nav>
+
+    <div class="nav-buttons">
+        <a href="http://localhost/gym-project/index.php" class="login">Login</a>
+        <a href="http://localhost/gym-project/index.php" class="signup">Signin</a>
+    </div>
+</header>
+
 
     <div class="main-wrapper">
         <div class="container">
@@ -70,6 +78,40 @@ $user = mysqli_fetch_array($query);
             </div>
         </div>
     </div>
+
+    <footer class="main-footer">
+    <diV class="footer-container">
+        
+    <div class="footer-column about">
+    
+        <h2 class="footer-logo">Power Zone <span>GYM</span></h2>
+        <p>your journey to a stronger Version of yourself starts here . professional equipment and expert trainers .</p>
+ 
+    </div>
+
+    <diV class="footer-column links">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="plans.html">pricing plans</a></li>
+            <li><a href="index.html#faq-section">FAQs</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+
+      </diV>
+
+      <div class="footer-column social">
+        <h3>Follow Us</h3>
+        <div class="social-icons">
+            <a href="#" class="social-link">FB</a>
+            <a href="#" class="social-link">IG</a>
+            <a href="#" class="social-link">TW</a>
+        </div>
+      </div>
+</div>
+<div class="footer-bottom">
+    <p>&copy; 2026 powerZonegym Gym. All Rights Reserved</p>
+</div>
+</footer>
 
 </body>
 </html>

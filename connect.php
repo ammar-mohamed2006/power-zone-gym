@@ -3,7 +3,7 @@
 $host = "localhost";
 $user = "root";
 $pass = "";
-$db = "project"; // ده اسم قاعدة البيانات اللي ظاهر عندك على الشمال في الصورة
+$db = "project";
 
 $conn = new mysqli($host, $user, $pass, $db);
 

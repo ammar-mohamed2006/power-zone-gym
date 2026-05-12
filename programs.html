@@ -10,20 +10,27 @@
 </head>
 <body class="dashboard-body">
 
-    <header class="navbar">
-        <div class="logo">
-            <img src="images/Bodybuilder_Fitness_Club_Black_Logo_1_-removebg-preview.png" alt="logo">
-            <h1>POWER ZONE</h1>
-        </div>
-        <nav class="nav-links">
-            <a href="index.html">Home</a>
-            <a href="programs.html" class="active">Programs</a>
-            <a href="plans.html">Plans</a>
-        </nav>
-        <div class="nav-buttons">
-            <a href="index.php" class="login">Login</a>
-        </div>
-    </header>
+    <!-- النافبار -->
+<header class="navbar">
+    <div class="logo">
+        <img src="images/Bodybuilder_Fitness_Club_Black_Logo_1_-removebg-preview.png" alt="power gym logo">
+        <h1>POWER ZONE</h1>
+    </div>
+
+    <nav class="nav-links">
+        <a href="index.html"><i class="fas fa-home"></i> Home</a>
+        <a href="about.html"><i class="fas fa-info-circle"></i> About</a>
+        <a href="programs.html"><i class="fas fa-dumbbell"></i> Programs</a>
+        <a href="plans.html"><i class="fas fa-clipboard-list"></i> plans</a>
+        <a href="plans.html"><i class="fas fa-envelope"></i> contact</a>
+    </nav>
+
+    <div class="nav-buttons">
+        <a href="http://localhost/gym-project/index.php" class="login">Login</a>
+        <a href="http://localhost/gym-project/index.php" class="signup">Signin</a>
+    </div>
+</header>
+
 
     <div class="main-wrapper">
         <div class="container">
@@ -32,32 +39,46 @@
                 <p>Choose your goal and start your journey</p>
             </div>
 
-            <div class="main-content">
-                <div class="box p1">
-                    <div class="overlay">
-                        <i class="fas fa-dumbbell"></i>
-                        <h3>Bodybuilding</h3>
-                        <p>Build muscle and strength</p>
-                    </div>
-                </div>
+            <section class="main-video-section">
+    <div class="video-heading">
+        <h2>Experience The Power</h2>
+        
+    </div>
+    
+    <div class="video-container">
+        <video controls autoplay muted loop playsinline class="local-video">
+            <source src="videos/a-cinematic-fitness-videosony-fx6.mp4" type="video/mp4">
+            عفواً، متصفحك لا يدعم تشغيل الفيديو.
+        </video>
+    </div>
+</section>
+           <div class="main-content">
+    <div class="program-box p1">
+        <div class="overlay">
+            <i class="fas fa-dumbbell"></i>
+            <h3>Bodybuilding</h3>
+            <p>Build muscle and strength</p>
+        </div>
+    </div>
 
-                <div class="box p2">
-                    <div class="overlay">
-                        <i class="fas fa-running"></i>
-                        <h3>Cardio & Burn</h3>
-                        <p>Lose weight and stay healthy</p>
-                    </div>
-                </div>
+    <div class="program-box p2">
+        <div class="overlay">
+            <i class="fas fa-running"></i>
+            <h3>Cardio & Burn</h3>
+            <p>Lose weight and stay healthy</p>
+        </div>
+    </div>
 
-                <div class="box p3">
-                    <div class="overlay">
-                        <i class="fas fa-bolt"></i>
-                        <h3>Power Lifting</h3>
-                        <p>Push your physical limits</p>
-                    </div>
-                </div>
-                <div class="clear"></div>
-            </div>
+    <div class="program-box p3">
+        <div class="overlay">
+            <i class="fas fa-bolt"></i>
+            <h3>Power Lifting</h3>
+            <p>Push your physical limits</p>
+        </div>
+    </div>
+    
+    <div class="clear"></div>
+</div>
 
             <div style="margin-top: 40px;">
                 <a href="plans.html" class="login" style="padding: 12px 35px;">Check Our Plans</a>
@@ -66,4 +87,38 @@
     </div>
 
 </body>
+
+<footer class="main-footer">
+    <diV class="footer-container">
+        
+    <div class="footer-column about">
+    
+        <h2 class="footer-logo">Power Zone <span>GYM</span></h2>
+        <p>your journey to a stronger Version of yourself starts here . professional equipment and expert trainers .</p>
+ 
+    </div>
+
+    <diV class="footer-column links">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="plans.html">pricing plans</a></li>
+            <li><a href="index.html#faq-section">FAQs</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+
+      </diV>
+
+      <div class="footer-column social">
+        <h3>Follow Us</h3>
+        <div class="social-icons">
+            <a href="#" class="social-link">FB</a>
+            <a href="#" class="social-link">IG</a>
+            <a href="#" class="social-link">TW</a>
+        </div>
+      </div>
+</div>
+<div class="footer-bottom">
+    <p>&copy; 2026 powerZonegym Gym. All Rights Reserved</p>
+</div>
+</footer>
 </html>

@@ -1,7 +1,8 @@
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>power zone</title>
+    <title>Home | Power Zone Gym</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
@@ -17,12 +18,13 @@
         <a href="index.html"><i class="fas fa-home"></i> Home</a>
         <a href="about.html"><i class="fas fa-info-circle"></i> About</a>
         <a href="programs.html"><i class="fas fa-dumbbell"></i> Programs</a>
-        <a href="contact.html"><i class="fas fa-envelope"></i> Contact</a>
+        <a href="plans.html"><i class="fas fa-clipboard-list"></i> plans</a>
+        <a href="plans.html"><i class="fas fa-envelope"></i> contact</a>
     </nav>
 
     <div class="nav-buttons">
         <a href="http://localhost/gym-project/index.php" class="login">Login</a>
-        <a href="signup.html" class="signup">Signup</a>
+        <a href="http://localhost/gym-project/index.php" class="signup">Signin</a>
     </div>
 </header>
 
@@ -32,7 +34,7 @@
         <h1>Power zone gym</h1>
         <h2>Made By Athletes For Athletes</h2>
         <p>Welcome to our gym. We are more than a gym, we are a community.</p>
-        <a href="#" class="btn-online">Signup Online</a>
+        <a href="http://localhost/gym-project/index.php" class="btn-online">Signup Online</a>
     </div>
 </section>
 <!-- features section  -->
@@ -96,36 +98,27 @@
 
         <!-- Normal Plan Box -->
         <div class="plan-card">
-            <h3>Normal Plan</h3>
-            <h2>$50</h2>
-            <p>/ month</p>
-            <ul>
-                <li>Access to gym</li>
-                <li>Basic equipment</li>
-                <li>locker room</li>
-            </ul>
-            <a href="plans.html" class="btn">choose plan</a>
+            <i class="fas fa-bolt contact-icon"></i>
+                <h3>Basic</h3>
+                <h2>250 <span>EGP</span></h2>
+                <ul>
+                    <li>Unlimited Gym Access</li>
+                    <li>Private Locker</li>
+                    <li>1 Free Orientation Session</li>
+                </ul>
+            <a href="plans.html" class="btn">more plans</a>
         </div> 
 
-        <!-- Premium Plan Box -->
-        <div class="plan-card">
-            <h3>premium Plan</h3>
-            <h2>$100</h2>
-            <p>/ month</p>
-            <ul>
-                <li>All Normal Features</li>
-                <li>personal trainer</li>
-                <li>Nutrition Plan</li>
-            </ul>
-            <a href="login.php" class="btn">choose Plan</a>
-        </div> 
-
+        
     </div> 
     <!-- الاستفسارات الشائعة -->
 </section>
 <section class="faq">
+    
     <div class="container">
+        <section class="faq" id="faq-section">
         <h2 class="faq-title">Frequently Asked Questions</h2>
+        </section>
         <p class="faq-subtitle">Everything you need to know about power zone Gym</p>
          
         <diV class="faq-container">
@@ -163,12 +156,13 @@
     </div>
 
 </section>
-<section class="contact">
+<section class="contact" id="contact-us">
     <div class="container">
-        
+     
         <h2 class="contact-title">Get In Touch</h2>
+    
         <p class="contact-subtitle">We are here to help you reach your fitness goals</p>
-
+        
         <div class="contact-boxes">
            
             <div class="contact-card">
@@ -200,31 +194,32 @@
         
     <div class="footer-column about">
     
-        <h2 class="foter-logo">Power Zone <span>GYM</span></h2>
+        <h2 class="footer-logo">Power Zone <span>GYM</span></h2>
         <p>your journey to a stronger Version of yourself starts here . professional equipment and expert trainers .</p>
-
-    </diV>
+ 
+    </div>
 
     <diV class="footer-column links">
         <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">pricing plans</a></li>
-            <li><a href="#">FAQs</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="plans.html">pricing plans</a></li>
+            <li><a href="index.html#faq-section">FAQs</a></li>
+            <li><a href="contact.html">Contact</a></li>
         </ul>
 
       </diV>
 
       <div class="footer-column social">
         <h3>Follow Us</h3>
-        <diV class="social-icons">
-            <a hrfe="#" class="social-links"><i class="fab fa-facebook-f"></i></a>
-            <a hrfe="#" class="social-links"><i class="fab fa-instagram"></i></a>
-            <a hrfe="#" class="social-links"><i class="fab fa-twitter"></i></a>
-        </diV>
+        <div class="social-icons">
+            <a href="#" class="social-link">FB</a>
+            <a href="#" class="social-link">IG</a>
+            <a href="#" class="social-link">TW</a>
+        </div>
       </div>
 </div>
 <div class="footer-bottom">
     <p>&copy; 2026 powerZonegym Gym. All Rights Reserved</p>
 </div>
 </footer>
+</html>

@@ -7,7 +7,7 @@ if(isset($_POST['signUp'])){
     $lastName=$_POST['lName'];
     $email=$_POST['email'];
     $password=$_POST['password'];
-    $password=md5($password); // ده لتشفير الباسورد عشان الحماية
+    $hashed_password = password_hash($password, PASSWORD_DEFAULT);
 
      $checkEmail="SELECT * From users where email='$email'";
      $result=$conn->query($checkEmail);
@@ -29,7 +29,6 @@ if(isset($_POST['signUp'])){
 if(isset($_POST['signIn'])){
    $email=$_POST['email'];
    $password=$_POST['password'];
-   $password=md5($password) ;
    
    $sql="SELECT * FROM users WHERE email='$email' and password='$password'";
    $result=$conn->query($sql);
